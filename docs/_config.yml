@@ -1,0 +1,16 @@
+title: Punto Kocchi
+email: j2arcidiacono@outlook.com
+description: >-
+  Un blog acerca de mis crafts
+baseurl: "/punto-kocchi"
+domain: mokocchi.github.io
+url: "http://mokocchi.github.io/"
+twitter_username: "@mokonahyuu"
+github_username:  mokocchi
+paginate: 5
+paginate_path: "/page:num/"
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

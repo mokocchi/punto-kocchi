@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "es-AR" }}">
+
+  <!-- CABECERA HTML -->
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/custom-style.css' | prepend: site.baseurl }}">
+    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/favicon.png">
+  </head>
+
+  <body>
+
+    <!-- CABECERA PÁGINA-->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a href="{{site.baseurl}}/">
+            <h1 id="project_title">{{ site.title }}</h1>
+          </a>
+          <h2 id="project_tagline">{{ site.description }}</h2>
+          <a href="{{site.baseurl}}/about">Acerca de</a>
+        </header>
+    </div>
+
+    <!-- CONTENIDO -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- PIE DE PÁGINA  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>j2arcidiacono[at]outlook.com</p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
